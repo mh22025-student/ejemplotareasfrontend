@@ -6,7 +6,8 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 
 //url del backend recuerda quitar cualquier pleca del final / quitarla
-axios.defaults.baseURL = process.env.VUE_APP_BACKEND || "http://localhost:3000"
+//---axios.defaults.baseURL = process.env.VUE_APP_BACKEND || "http://localhost:3000"
+axios.defaults.baseURL = process.env.VUE_APP_BACKEND || "https://ejemplotareas-backend.vercel.app"
 //axios.defaults.baseURL= process.env.BACKEND || "http://backend.io"
 //axios.defaults.baseURL= process.env.BACKEND || "http://alexandercalderon.online"
 
